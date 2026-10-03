@@ -1,0 +1,62 @@
+.other-games-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.other-games-title{
+  font-family: bbh, 'Courier New', Courier, monospace;
+  font-size: 2em;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.game-card-animation{
+  width: 100%;
+  min-width: 101vw;
+  display: flex;
+  overflow-x: auto;
+  padding: 3em 0;
+}
+
+.game-card-animation::-webkit-scrollbar{
+  display: none;
+}
+
+.all-games-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding-right: 2em;
+  animation: scroll 20s infinite linear;
+}
+
+@keyframes scroll {
+  from {translte: 0%;}
+  to {translate: -100%;}
+}
+
+.game{
+  width: 12em;
+  height: 18em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  align-content: center;
+  box-shadow: 0 0 10px var(--color-accent);
+}
+
+.ac {background-image: url('/assets/images/game-cover-arts/assassins-creed-cover.webp');}
+.ac2 {background-image: url('/assets/images/game-cover-arts/assassins-creed-2-cover.webp');}
+.dcs {background-image: url('/assets/images/game-cover-arts/dcs-cover.webp');}
+.gow {background-image: url('/assets/images/game-cover-arts/gow-cover.webp');}
+.ksp {background-image: url('/assets/images/game-cover-arts/ksp-cover.webp');}
+.mc {background-image: url('/assets/images/game-cover-arts/minecraft-cover.webp');}
+.nfsr {background-image: url('/assets/images/game-cover-arts/nfs-rivals-cover.webp');}
+.rdr2 {background-image: url('/assets/images/game-cover-arts/rdr-2-cover.webp');}
+.wd {background-image: url('/assets/images/game-cover-arts/watch-dogs-cover.webp');}

@@ -1,0 +1,36 @@
+.favorite-quote-section{
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid var(--color-accent);
+  width: 100%;
+  background-color: #ededed;
+}
+
+.quote-and-author-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-family: lavishly, Arial, Helvetica, sans-serif;
+  color: #c73b1f;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
+
+.quote-author{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

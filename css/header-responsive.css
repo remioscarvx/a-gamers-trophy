@@ -1,0 +1,28 @@
+@media (min-width: 500px) {
+  .logo-link{
+    margin: 2vw 3vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .logo-link{
+    font-size: 2.8em;
+  }
+  .nav-link{
+    font-size: 1.6em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo-link{
+    font-size: 3em;
+    margin: 1vw 2vw;
+  }
+  .nav{
+    min-width: 50vw;
+  }
+  .nav-link{
+    font-size: 1.8em;
+  }
+
+}

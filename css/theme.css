@@ -1,0 +1,8 @@
+:root{
+  --color-primary: #08CB00;
+  --color-secondary: #253900;
+  --color-background: #181818;
+  --color-background-htp: #00000083;  /* htp = half transparant */
+  --color-accent: #ffed48;
+  --color-text-primary: #EEEEEE;
+}

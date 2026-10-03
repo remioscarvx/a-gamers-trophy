@@ -1,0 +1,72 @@
+.reviews-section{ 
+  background-color: var(--color-background);
+  padding: 2em 0;
+  border-top: 5px solid var(--color-accent);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review{
+  padding: 1em 0;
+  margin: 1em 0;
+  background-color: var(--color-background-htp);
+  width: 90%;
+  max-width: 800px;
+
+}
+
+.game-reviews,
+.review-game-title,
+.review-game{
+  color: var(--color-text-primary);
+}
+
+.game-reviews{
+  font-family: bbh, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  color: var(--color-accent);
+}
+
+.title-rating-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review-game-title{
+  font-family: isometra, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.review-rating{
+  width: 10em;
+  padding: 0;
+  margin: 0;
+}
+
+.review-game{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 0 1em;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  line-height: 1.35;
+}
+
+#mc-review-title{
+  color: #00ab00;
+}
+#ac2-review-title{
+  color: #c73b1f;
+}
+#nfsr-review-title{
+  color: #dfdfdf;
+}

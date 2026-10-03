@@ -1,0 +1,16 @@
+.home-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-image: url(/assets/images/game-backgrounds/minecraft-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home{
+  width: 100%;
+  background-color: #000000bd;
+}

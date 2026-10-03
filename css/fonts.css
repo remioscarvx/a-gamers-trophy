@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'roboto';
+  src: url(/assets/fonts/Roboto-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url(/assets/fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url(/assets/fonts/Roboto-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url(/assets/fonts/Roboto-LightItalic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'archivo';
+  src: url(/assets/fonts/ArchivoBlack-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'isometra';
+  src: url(/assets/fonts/Isometra-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'alien';
+  src: url(/assets/fonts/AlienBlock-Regular.ttf);
+}
+
+@font-face {
+  font-family: bbh;
+  src: url(/assets/fonts/BBHHegarty-Regular.ttf);
+}
+
+@font-face {
+  font-family: lavishly;
+  src: url(/assets/fonts/LavishlyYours-Regular.ttf);
+}
